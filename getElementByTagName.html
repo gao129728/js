@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>nihao1</li>
+        <li>nihao2</li>
+        <li>nihao3</li>
+        <li>nihao4</li>
+        <li>nihao5</li>
+        <li>nihao6</li>
+    </ul>
+    <ul id="nav">
+        <li>haha1</li>
+        <li>haha2</li>
+        <li>haha3</li>
+        <li>haha4</li>
+        <li>haha5</li>
+        <li>haha6</li>
+    </ul>
+    <script>
+        var list = document.getElementsByTagName('li');
+        console.log(list);
+        console.log(list[0]);
+        for (var i = 1; i < list.length; i++) {
+            console.log(list[i]);
+        }
+
+        var nav = document.getElementById('nav');
+        var navlist = nav.getElementsByTagName('li');
+        console.log(navlist);
+        
+
+    </script>
+</body>
+
+</html>
